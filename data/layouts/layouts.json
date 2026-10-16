@@ -1478,7 +1478,7 @@
     {
       "id": "LAYOUT_PETALBURG_WOODS",
       "name": "PetalburgWoods_Layout",
-      "width": 48,
+      "width": 55,
       "height": 44,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
@@ -9333,6 +9333,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/RustboroGardens/border.bin",
       "blockdata_filepath": "data/layouts/RustboroGardens/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEEP_PETALBURG_WOODS",
+      "name": "DeepPetalburgWoods_Layout",
+      "width": 53,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/DeepPetalburgWoods/border.bin",
+      "blockdata_filepath": "data/layouts/DeepPetalburgWoods/map.bin"
     }
   ]
 }
