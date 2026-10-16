@@ -1743,3 +1743,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/RustboroGardens/scripts.inc"
 
 	.include "data/maps/DeepPetalburgWoods/scripts.inc"
+
+	.include "data/maps/DewfordMeadows/scripts.inc"

@@ -20,7 +20,12 @@
     },
     {
       "map": "MAP_DEWFORD_TOWN",
-      "offset": 60,
+      "offset": 52,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_DEWFORD_MEADOWS",
+      "offset": 18,
       "direction": "down"
     }
   ],

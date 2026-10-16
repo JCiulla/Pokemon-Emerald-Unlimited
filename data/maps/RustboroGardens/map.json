@@ -3,7 +3,7 @@
   "name": "RustboroGardens",
   "layout": "LAYOUT_RUSTBORO_GARDENS",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_RUSTBORO_CITY",
+  "region_map_section": "MAPSEC_RUSTBORO_GARDENS",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
