@@ -1,1 +1,15 @@
 mapscripts RustboroGardens_MapScripts {}
+
+script RustboroGardens_EventScript_Mudkip_Test {
+    lock
+    faceplayer
+    createfieldmugshot(MUGSHOT_MUDKIP, EMOTE_NORMAL)
+    msgbox("Kip! Mudkip!", MSGBOX_DEFAULT)
+    waitmessage
+    removefieldmugshot
+    release
+    end
+
+}
+
+

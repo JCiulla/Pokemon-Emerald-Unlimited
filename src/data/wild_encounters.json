@@ -36582,7 +36582,7 @@
           "map": "MAP_RUSTBORO_GARDENS",
           "base_label": "gRustboroGardens",
           "land_mons": {
-            "encounter_rate": 7,
+            "encounter_rate": 15,
             "mons": [
               {
                 "min_level": 8,

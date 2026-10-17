@@ -326,7 +326,11 @@ AI: Check Bad Move
 
 Poochyena
 Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Carvanha
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2125,9 +2129,13 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowth-Galar @ Nugget
+Level: 8
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Glameow
+Level: 8
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -2529,9 +2537,13 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meowth @ Nugget
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Munchlax @ Leftovers
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4800,28 +4812,40 @@ Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Roggenrola
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 100 HP / 100 Atk / 100 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
-
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
-
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
 - Harden
+- Mud-Slap
+- Rock Tomb
+
+Lileep
+Level: 14
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 100 HP / 0 Atk / 50 Def / 100 SpA / 50 SpD / 0 Spe
+- Ingrain
+- Mega Drain
+- Ancient Power
+- Confuse Ray
+
+Anorith
+Level: 14
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 0 HP / 100 Atk / 100 Def / 0 SpA / 0 SpD / 100 Spe
+- Metal Claw
+- Fury Cutter
+- Rock Tomb
+- Harden
+
+Nosepass @ Passho Berry
+Level: 16
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+EVs: 100 HP / 100 Atk / 100 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
 - Tackle
+- Thunderpunch
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
@@ -5135,9 +5159,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
+Toxel
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_TED ===
 Name: TED
@@ -5255,8 +5283,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Marill
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -5953,7 +5985,11 @@ AI: Check Bad Move
 
 Poochyena
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Surskit
+Level: 5
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -5965,12 +6001,16 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 7
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Krabby
+Level: 7
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Seedot
 Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -5982,9 +6022,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tackle
+- Defense Curl
+- Rock Throw
+- Magnitude
+
+Roggenrola
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tackle
+- Harden
+- Rock Tomb
+- Mud-Slap
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -5996,12 +6047,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Throw
+- Tackle
+- Defense Curl
+- Dig
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Aron
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Tomb
+- Metal Claw
+- Sand-Attack
+- Tackle
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -6013,8 +6072,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Whismur
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_BEN ===
 Name: BEN
@@ -6219,11 +6282,15 @@ AI: Check Bad Move
 
 Zigzagoon
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Taillow
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 4
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Poliwag
+Level: 4
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -8809,12 +8876,12 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -10563,13 +10630,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Geodude
-Level: 8
+Roggenrola
+Level: 11
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Tomb
+- Harden
+- Tackle
+- Mud-Slap
+
+Onix
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Throw
+- Harden
+- Bind
+- Tackle
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -11058,11 +11133,15 @@ AI: Check Bad Move
 
 Zigzagoon
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Lotad
+Level: 4
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Shroomish
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11073,13 +11152,17 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lillipup
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Shroomish
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skitty
+Level: 8
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Morelull
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11091,8 +11174,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Marill
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Taillow
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_VIVI ===
 Name: VIVI
@@ -11262,11 +11349,15 @@ AI: Check Bad Move
 
 Wurmple
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Wurmple
+Grubbin
 Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Blipbug
+Level: 4
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -11302,13 +11393,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Spinarak
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nincada
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Grubbin
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11553,8 +11648,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Sandshrew
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -12945,12 +13044,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lillipup
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -12962,13 +13061,13 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skitty @ Nugget
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Espurr
+Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -12980,8 +13079,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Mantyke
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_HAILEY ===
 Name: HAILEY
@@ -13864,12 +13967,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Onix
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -13880,13 +13983,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Patrat
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Starly
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_MELINA ===
 Name: MELINA
