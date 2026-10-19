@@ -5,16 +5,13 @@ enum Mugshots {
     MUGSHOT_NONE = 0,
     MUGSHOT_TEST,
     MUGSHOT_MUDKIP,
+    MUGSHOT_ROXANNE,
     MUGSHOT_COUNT,
 };
 
 enum MugshotEmotes {
     EMOTE_NORMAL = 0,
     EMOTE_ALT,
-    EMOTE_HAPPY,
-    EMOTE_ELATED,
-    EMOTE_ANGRY,
-    EMOTE_SAD,
     EMOTE_COUNT,
 };
 

@@ -176,12 +176,19 @@ RustboroCity_Gym_Text_MarcPostBattle:
 	.string "pick the ROCK type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "Hello, I am ROXANNE, the RUSTBORO\n"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "POKéMON GYM LEADER.\p"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "I became a GYM LEADER so that I might\n"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "apply what I learned at the POKéMON\l"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "Would you kindly demonstrate how you\n"
+	.string "{CREATE_MUGSHOT MUGSHOT_ROXANNE EMOTE_NORMAL}"
 	.string "battle, and with which POKéMON?$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
