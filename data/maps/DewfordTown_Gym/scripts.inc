@@ -380,8 +380,10 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "Go after that BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "I'm BRAWLY!\n"
 	.string "DEWFORD's GYM LEADER!\p"
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "I've been churned in the rough waves\n"
 	.string "of these parts, and I've grown tough\l"
 	.string "in the pitch-black cave!\p"
@@ -400,6 +402,7 @@ DewfordTown_Gym_Text_ReceivedKnuckleBadge:
 	.string "from BRAWLY.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "The KNUCKLE BADGE makes all POKéMON\n"
 	.string "up to Level 30, even those you get in\l"
 	.string "trades, obey without question.\p"
@@ -409,6 +412,7 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "MACHINE, too.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "That TM08 contains BULK UP.\p"
 	.string "It's a move that raises both ATTACK\n"
 	.string "and DEFENSE stats.\p"
@@ -419,6 +423,7 @@ DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
 	.string "among TRAINERS one day!$"
@@ -432,6 +437,7 @@ DewfordTown_Gym_Text_GymStatueCertified:
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "BRAWLY: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
@@ -444,11 +450,13 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "BRAWLY: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
 	.string "It's just like the sea of HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
+	.string "{CREATE_MUGSHOT MUGSHOT_BRAWLY EMOTE_NORMAL}"
 	.string "BRAWLY: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
@@ -457,3 +465,4 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "that can battle.\p"
 	.string "I'm sorry, but I'd like you to come back\n"
 	.string "with at least two POKéMON.$"
+

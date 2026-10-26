@@ -233,6 +233,7 @@ FortreeCity_Gym_Text_DariusPostBattle:
 	.string "WINONA's POKéMON are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "I am WINONA. I am the LEADER of\n"
 	.string "the FORTREE POKéMON GYM.\p"
 	.string "I have become one with BIRD POKéMON\n"
@@ -254,6 +255,7 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "from WINONA.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "With the FEATHER BADGE, all POKéMON up\n"
 	.string "to LV 70, even those received through\l"
 	.string "trades, will obey your every command.\p"
@@ -263,6 +265,7 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
 	.string "This is a gift from me.$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "TM40 contains AERIAL ACE.\p"
 	.string "Its speed…\n"
 	.string "No POKéMON should be able to avoid it.\p"
@@ -273,6 +276,7 @@ FortreeCity_Gym_Text_RegisteredWinona:
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "Though I fell to you, I will remain\n"
 	.string "devoted to BIRD POKéMON.$"
 
@@ -285,6 +289,7 @@ FortreeCity_Gym_Text_GymStatueCertified:
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "WINONA: We humans can never escape\n"
 	.string "gravity's pull on the ground.\p"
 	.string "But by striving for excellence,\n"
@@ -298,6 +303,7 @@ FortreeCity_Gym_Text_WinonaRematchDefeat:
 	.string "I failed to reach your height again…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "WINONA: Even though I have lost,\n"
 	.string "the wings of my heart remain unbroken.\p"
 	.string "I can rise and soar again and\n"
@@ -305,6 +311,7 @@ FortreeCity_Gym_Text_WinonaPostRematch:
 	.string "I am convinced of it!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
+	.string "{CREATE_MUGSHOT MUGSHOT_WINONA EMOTE_NORMAL}"
 	.string "WINONA: We humans can never escape\n"
 	.string "gravity's pull on the ground.\p"
 	.string "But by striving for excellence,\n"
