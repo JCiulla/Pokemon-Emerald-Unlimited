@@ -708,7 +708,8 @@ const u32 gUnusedTilemap_BasicFrame[] = INCGFX_U32("graphics/unused/basic_frame.
 // Battle Interface
 
 const u16 gBattleInterface_BallStatusBarPal[] = INCGFX_U16("graphics/battle_interface/ball_status_bar.png", ".gbapal");
-
+const u16 gBattleInterface_NewBattlePal[] = INCBIN_U16("graphics/battle_interface/healthbox.gbapal");
+const u16 gBattleInterface_NewShinyBattlePal[] = INCBIN_U16("graphics/battle_interface/healthbox_shiny.gbapal");
 const u16 gBattleInterface_BallDisplayPal[] = INCGFX_U16("graphics/battle_interface/ball_display.png", ".gbapal");
 
 const u8 gHealthboxElementsGfxTable[][32] = INCBIN_U8("graphics/battle_interface/hpbar.4bpp",

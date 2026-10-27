@@ -1273,6 +1273,7 @@ void SwapHpBarsWithHpText(void)
                     UpdateStatusIconInHealthbox(gHealthboxSpriteIds[i]);
                     UpdateHealthboxAttribute(gHealthboxSpriteIds[i], mon, HEALTHBOX_HEALTH_BAR);
                     CpuCopy32(GetHealthboxElementGfxPtr(HEALTHBOX_GFX_OPPONENT_FRAME_END_BAR), (void *)(OBJ_VRAM0 + 0x660 + gSprites[gHealthboxSpriteIds[i]].oam.tileNum * TILE_SIZE_4BPP), 32);
+                        UpdateHealthboxAttribute(gHealthboxSpriteIds[i], mon, HEALTHBOX_NICK);
                 }
             }
             gSprites[gHealthboxSpriteIds[i]].hMain_Data7 ^= 1;
@@ -2062,6 +2063,18 @@ void UpdateHealthboxAttribute(u8 healthboxSpriteId, struct Pokemon *mon, u8 elem
     enum BattlerId battler = gSprites[healthboxSpriteId].hMain_Battler;
     s32 maxHp = GetMonData(mon, MON_DATA_MAX_HP);
     s32 currHp = GetMonData(mon, MON_DATA_HP);
+
+    if (elementId == HEALTHBOX_NICK || elementId == HEALTHBOX_ALL)
+    {
+        u8 rightId = gSprites[healthboxSpriteId].oam.affineParam;
+        u8 palNum = IsMonShiny(mon) ? IndexOfSpritePaletteTag(TAG_HEALTHBOX_SHINY_PAL) : IndexOfSpritePaletteTag(TAG_HEALTHBOX_PAL);
+
+        if (palNum != 0xFF)
+        {
+            gSprites[healthboxSpriteId].oam.paletteNum = palNum;
+            gSprites[rightId].oam.paletteNum = palNum;
+        }
+    }
 
     if (IsOnPlayerSide(battler))
     {
